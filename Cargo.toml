@@ -8,8 +8,7 @@ resolver = "2"
 members = ["crates/*"]
 
 [workspace.dependencies]
-bevy = "=0.16.0-rc.3"
-
+bevy = "0.16"
 [dependencies]
 bevy = { workspace = true }
 asset_tracking = { path = "crates/asset_tracking" }
